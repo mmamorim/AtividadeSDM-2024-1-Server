@@ -91,9 +91,9 @@ function frutas(app) {
 export default frutas
 ~~~
 
-Altere-os para que o servidor atenda um novo CRUD para filmes:
+Crie um novo controlador ```controllers/filmes.js```  para que o servidor atenda um novo CRUD para filmes e altere o arquivo de rotas importando ```filmes.js``` e adicionando às rotas: 
 
-O servidor deve responder as seguintes rotas (paths), métodos e parâmetros:
+Agora o servidor deve responder também as seguintes rotas (paths), métodos e parâmetros:
 
     a. GET 	/filmes
     b. POST	/filmes
